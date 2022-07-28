@@ -6,16 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home School</title>
-    <link rel="icon" type="image/x-icon" href="/image/icon3.png">
+    <link rel="icon" type="image/x-icon" href="/image/icon.png">
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a0432cd8ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <!-- Navbar start -->
         <section class="container">
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg fixed-top bg-light">
+                <div class="container">
                     <div class="d-flex"><a class="navbar-brand" href="#"> <img src="image/icon2.jpg" alt="" width="60"
                                 height="40" class="d-inline-block"></a>
                         <h2 class="pt-1">Home School</h2>
@@ -53,6 +55,84 @@
             </nav>
         </section>
         <!-- Navbar end -->
+
+
+        <!-- slider start  -->
+        <section class="p-5">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="image/english.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block pb-5 mb-5 text-center fw-bold">
+                            <h1>Spoken English</h1>
+                            <p class="fw-semibold">Learn how to speak English fluently and be a confident English
+                                speaker in your everyday
+                                life. It is a complete Spoken English course for beginners.</p>
+                            <button class="btn btn-success" type="submit">Get this course <i
+                                    class="fa-solid fa-right-long"></i></button>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="image/freelancer.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block pb-5 mb-5 text-center fw-bold">
+                            <h1>Freelancing</h1>
+                            <p class="fw-semibold">Learn freelancing from one of the top-rated freelancers of
+                                Bangladesh. Master everything
+                                you need to know about freelancing skills and freelance marketplaces.</p>
+                            <button class="btn btn-success" type="submit">Get this course <i
+                                    class="fa-solid fa-right-long"></i></button>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="image/video.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block pb-5 mb-5 text-center fw-bold">
+                            <h1>Video Making</h1>
+                            <p class="fw-semibold">Learn how to make amazing videos to hook your audience with your
+                                content. Take your first
+                                step to become a professional video maker. Enrol now to learn from professionals!</p>
+                            <button class="btn btn-success" type="submit">Get this course <i
+                                    class="fa-solid fa-right-long"></i></button>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="image/bank.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block pb-5 mb-5 text-center fw-bold">
+                            <h1>Bank Job</h1>
+                            <p class="fw-semibold">Learn to prepare for recruitment exams to secure a bank job in
+                                Bangladesh. Enrol today to
+                                get an in-depth breakdown of Bank Jobs Recruitment preparation.</p>
+                            <button class="btn btn-success" type="submit">Get this course <i
+                                    class="fa-solid fa-right-long"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- slide end -->
     </header>
     <script src="bootstrap/bootstrap.min.js"></script>
 </body>
